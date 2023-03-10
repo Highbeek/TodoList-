@@ -6,7 +6,7 @@ const Task = (props) => {
   return (
     <div
       className="task"
-      style={{ color: props.completed ? "green" : "white" }}
+      style={{ backgroundColor: props.completed ? "#4CAF50" : "#fff" }}
     >
       <h1>{props.taskname}</h1>
       <button onClick={() => props.completeTask(props.id)}>Complete</button>
