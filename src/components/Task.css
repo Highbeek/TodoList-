@@ -1,0 +1,23 @@
+.task {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+  flex-wrap: nowrap; /* set flex-wrap to nowrap to prevent wrapping onto multiple lines */
+  border: 1px solid whitesmoke;
+  box-shadow: 3px 3px 6px 5px #ccc;
+  text-align: center;
+  justify-content:center;
+}
+
+.task h1{
+    padding-right: 20px;
+}
+
+.task button{
+    padding: 5px;
+}
+svg{
+    width: auto;
+    height: 32px;
+}

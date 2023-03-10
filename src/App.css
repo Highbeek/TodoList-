@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  
+}
+
+.App {
+ 
+  border: 2px solid whitesmoke;
+  background-color: #001;
+
+}
+
+.addTask input {
+  font-size: 2rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+.addTask button {
+  font-size: 2rem;
+  border-radius: 30px;
+  margin-top: 10px;
+   border: none;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+.list {
+  width: 100%;
+
+}
+
+.addTask h1{
+  font-size: 48px;
+}
